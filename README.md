@@ -3,6 +3,7 @@ DevsTips est un site de tips and tricks pour les developpeurs et codeurs.
 Ils permettent aux utilisateurs de consulters les codes et des exemples utilise pour coders leurs projets. 
 
 # Architecture du code git
+Sql : dossier pour sql 
 
 # Installation
 L'installation de VueJS necessite nodeJS et un environnement de travaille.
