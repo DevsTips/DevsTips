@@ -7,7 +7,7 @@ Ils permettent aux utilisateurs de consulters les codes et des exemples utilise 
 # Installation
 L'installation de VueJS necessite nodeJS et un environnement de travaille.
 
-aprés quoi il sera plus simple d'installer vue
+après quoi il sera plus simple d'installer vue
 A mettre dans le terminal :
 ''' 
 $ npm install vue
