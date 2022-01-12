@@ -28,10 +28,12 @@ Documentation Node : https://nodejs.org/en/
 - 
 VueJS :  https://fr.vuejs.org/v2/guide/installation.html
 
+Figma  : https://www.figma.com/file/uKuGjJCUztAgYetJ4HvlaC/projet1-tips-and-tricks
+
 # Credit
 Baptiste Dantas
 
-Nikola Marinkovinc
+Nikola Marinkovic
 
 Ulysse Perret
 
