@@ -25,7 +25,7 @@ VueJS :  https://fr.vuejs.org/v2/guide/installation.html
 
 # Credit
 Baptiste Dantas
-Nikola Marinkovinc
+Nikola Marinkovic
 Ulysse Perret
 
 # Versionning
