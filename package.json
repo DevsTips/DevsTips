@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@vue/cli-service": "^3.12.1",
+    "joi": "^17.5.0",
     "vue": "^2.6.14"
   }
 }

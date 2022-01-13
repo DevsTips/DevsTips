@@ -4,6 +4,7 @@ Ils permettent aux utilisateurs de consulters les codes et des exemples utilise 
 
 # Architecture du code git
 Sql : Dossier pour les données sql 
+Code_vue : dossier pour le code
 
 # Installation
 L'installation de VueJS necessite nodeJS et un environnement de travaille.
@@ -22,10 +23,11 @@ yarn global add @vue/clie
 
 Pour verifier : vue --version
 
-Version
+Rappel pour crée une vue
 
+vue create nomVue
 
-pour le choi du Vue CLI v4.5.15
+pour le choix du Vue CLI v4.5.15
  Default (Vue 3) ([Vue 3] babel, eslint) 
 
 CDN, a mettre en script dans le head :
@@ -39,10 +41,17 @@ Documentation Node : https://nodejs.org/cen/
 VueJS :  https://fr.vuejs.org/v2/guide/installation.html
 
 
+# Serveur
+Pour lancer un serveur il faut
+npm run serve
+
+ou
+yarn run serve
+
 # Credit
 Baptiste Dantas
 
-Nikola Marinkovinc
+Nikola Marinkovic
 
 Ulysse Perret
 
