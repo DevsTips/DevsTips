@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Jan 12, 2022 at 02:50 PM
+-- Generation Time: Jan 12, 2022 at 04:29 PM
 -- Server version: 5.7.30
 -- PHP Version: 7.4.9
 
@@ -13,6 +13,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `devstips`
 --
+CREATE DATABASE IF NOT EXISTS `devstips` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `devstips`;
 
 -- --------------------------------------------------------
 
@@ -20,6 +22,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `Astuces`
 --
 
+DROP TABLE IF EXISTS `Astuces`;
 CREATE TABLE `Astuces` (
   `idAstuce` int(11) NOT NULL,
   `contentAstuce` varchar(255) NOT NULL,
@@ -40,6 +43,7 @@ INSERT INTO `Astuces` (`idAstuce`, `contentAstuce`, `descriptionAstuce`, `specif
 -- Table structure for table `Categorie`
 --
 
+DROP TABLE IF EXISTS `Categorie`;
 CREATE TABLE `Categorie` (
   `idCategorie` int(11) NOT NULL,
   `nameLanguage` varchar(255) NOT NULL,
@@ -59,6 +63,7 @@ INSERT INTO `Categorie` (`idCategorie`, `nameLanguage`, `validCategorie`) VALUES
 -- Table structure for table `Code`
 --
 
+DROP TABLE IF EXISTS `Code`;
 CREATE TABLE `Code` (
   `idCode` int(11) NOT NULL,
   `titre` varchar(255) NOT NULL,
@@ -85,6 +90,7 @@ INSERT INTO `Code` (`idCode`, `titre`, `contentCode`, `description`, `specificat
 -- Table structure for table `Commentaires`
 --
 
+DROP TABLE IF EXISTS `Commentaires`;
 CREATE TABLE `Commentaires` (
   `idCommentaire` int(11) NOT NULL,
   `contentCommentaire` varchar(255) NOT NULL,
@@ -105,6 +111,7 @@ INSERT INTO `Commentaires` (`idCommentaire`, `contentCommentaire`, `idCode`, `id
 -- Table structure for table `ExempleCode`
 --
 
+DROP TABLE IF EXISTS `ExempleCode`;
 CREATE TABLE `ExempleCode` (
   `idExempleCode` int(11) NOT NULL,
   `content` varchar(255) NOT NULL,
@@ -124,6 +131,7 @@ INSERT INTO `ExempleCode` (`idExempleCode`, `content`, `idCode`) VALUES
 -- Table structure for table `Note`
 --
 
+DROP TABLE IF EXISTS `Note`;
 CREATE TABLE `Note` (
   `idNote` int(11) NOT NULL,
   `idCode` int(11) NOT NULL,
@@ -144,6 +152,7 @@ INSERT INTO `Note` (`idNote`, `idCode`, `validNote`, `numberNote`) VALUES
 -- Table structure for table `Snippet`
 --
 
+DROP TABLE IF EXISTS `Snippet`;
 CREATE TABLE `Snippet` (
   `idSnippet` int(11) NOT NULL,
   `contentSnippet` varchar(255) NOT NULL,
@@ -163,6 +172,7 @@ INSERT INTO `Snippet` (`idSnippet`, `contentSnippet`, `idCategorie`) VALUES
 -- Table structure for table `Users`
 --
 
+DROP TABLE IF EXISTS `Users`;
 CREATE TABLE `Users` (
   `id` int(11) NOT NULL,
   `pseudo` varchar(255) NOT NULL,
