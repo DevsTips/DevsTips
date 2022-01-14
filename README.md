@@ -19,7 +19,7 @@ A mettre dans le terminal :
 
 $ npm install vue
 
-$npm install -g @vue/cli
+$ npm install -g @vue/cli
  
 * OR 
 
@@ -33,10 +33,24 @@ Dev: <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
 Prod : <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
 
+# Lancement
+En développement
+Etape 1 : aller dans le socier devtips
+Etape 2 : yarn run serve
+Etape 3 : sur navigateur 
+  - Local:   http://localhost:8080/ 
+  - Network: http://192.168.1.15:8080/
+
+# Ressource
+Nous avons utiliser:
+NodeJS pour le coté serveur et coté connexion base de donnée
+
 Documentation Node : https://nodejs.org/en/
- 
+
+VueJS pour le codage vu que nous utilisons tous les trois 
 VueJS :  https://fr.vuejs.org/v2/guide/installation.html
 
+Pour la maquette nous avons utiliser Figma
 Figma  : https://www.figma.com/file/uKuGjJCUztAgYetJ4HvlaC/projet1-tips-and-tricks
 
 # Credit
@@ -52,5 +66,6 @@ V0 - Date : 11-12/01/2021
 - Initiation du Git
 - Projet Git
 
-V1 - DATE 14
-Mise en commun pour Vue marche sur tout branch
+V0.1 - Date 14/01/2021
+Mise en commun pour Vue marche sur tout branches
+Check yarn serveur
