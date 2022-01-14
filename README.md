@@ -1,19 +1,18 @@
-# DevsTips
-DevsTips est un site de tips and tricks pour les developpeurs et codeurs.
-Ils permettent aux utilisateurs de consulters les codes et des exemples utilise pour coders leurs projets. 
+# DevTips
+DevTips est un site de tips and tricks pour les developpeurs.
+Il permet aux utilisateurs de consulter des codes et des exemples utiles pour coder leurs projets. 
 
 # Architecture du code git
 
 # Installation
-L'installation de VueJS necessite nodeJS et un environnement de travaille.
-
-après quoi il sera plus simple d'installer vue
+L'installation de VueJS nécessite nodeJS et un environnement de travail.
+Après quoi il sera plus simple d'installer vue
 A mettre dans le terminal :
 ''' 
 $ npm install vue
 $npm install -g @vue/cli
 * OR
-yarn global add @vue/clie
+yarn global add @vue/cli
 '''
 
 CDN, a mettre en script dans le head
@@ -25,10 +24,10 @@ VueJS :  https://fr.vuejs.org/v2/guide/installation.html
 
 # Credit
 Baptiste Dantas
-Nikola Marinkovinc
+Nikola Marinkovic
 Ulysse Perret
 
 # Versionning
 V0 - Date : 11-12/01/2021
-Installation Devs Tips
+Installation DevTips
 Initiation du Git
