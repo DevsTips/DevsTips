@@ -29,6 +29,9 @@ Ulysse Perret
 
 # Versionning
 V0 - Date : 11-12/01/2021
+
 Installation DevTips
+
 Initiation du Git
+
 Installation Bootstrap
