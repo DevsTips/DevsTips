@@ -20,7 +20,6 @@ $npm install -g @vue/cli
 
 yarn global add @vue/clie
 
- 
 Pour verifier : vue --version
 
 CDN, a mettre en script dans le head :
