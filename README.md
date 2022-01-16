@@ -69,3 +69,5 @@ V0 - Date : 11-12/01/2021
 V0.1 - Date 14/01/2021
 Mise en commun pour Vue marche sur tout branches
 Check yarn serveur
+
+V0.2- Date 16/01/2021
