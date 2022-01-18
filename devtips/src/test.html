@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ma interface Devstips</title>
+
+        <script src="https://unpkg.com/vue@next"></script>
+        
+    </head>
+    <body>
+        <div id ="app"> 
+            <p v-bind:title="message">
+                  {{ message }}
+            </p>
+          
+            <div class="container">
+               <div class="row">
+                   <p class="jumbotron"> Login : <input type="text" v-model="user"/>  Vous êtes connecté en tant que {{ user }}</p>
+               </div>
+               <h1 class="display-4"> Languages disponibles</h1>
+               <div class="row">
+                   <div class="col-3" v-for="produit in produits" >
+                        <p class="jumbotron"> {{produit }}</p>
+                   </div>
+               
+            </div>
+           </div> 
+       </div>
+
+        <script>
+            const vm = Vue.createApp({
+                data(){
+                    return{
+                        message: "Hello world ! ",
+                        user :"Ulysse",
+                    produits: ["HTML","CSS", "JAVASCRIPT", "JAVA", "C++", "C", "JQUERY", "Python", "Symfony"]
+                 
+                    }
+                }
+            }).mount('#app') 
+ 
+        </script>
+    </body>
+</html>
