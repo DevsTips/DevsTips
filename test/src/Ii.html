@@ -12,8 +12,8 @@
         <div id ="app"> 
             <h1> La page d'acceuil</h1>
             <input type="text" v-model="message" />
-            <a href="#" @click="ajouterLanguage"> Ajouter </a>  <br>
-            {{message}}
+            <a href="#" @click="ajouterLanguage" v-if=" message != '' "> Ajouter </a>  <br>
+                {{message}}
 
             <div class="container">
                <div class="row">
@@ -27,6 +27,8 @@
                    </div>
                 </div>
            </div> 
+
+           <note v-for="todo in todos" vbind:content="Mon nouveau contenu"></note>
        </div>
 
         <script>
@@ -46,6 +48,7 @@
                             { id:'language-7 python', content: "Python"},
                             { id:'language-8 symfony', content: "Symfony"}  
                         ],
+                        todos: [ "Sauver le monde", "Boire un café", "Apprendre Vue JS"],
                     commandes: []
                     }
                 },
@@ -55,9 +58,16 @@
                     },
                     ajouterLanguage(){
                         this.languages.push(this.message);
+                        this.message = '';
                     }
                 }
-            }).mount('#app') 
+            })
+            
+            vm.component('note', {
+                props: ['content'],
+                template: ` <p> {{ content }} </p> `
+            }) 
+            vm.mount('#app') 
  
         </script>
     </body>
