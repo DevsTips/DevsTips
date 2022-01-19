@@ -11,9 +11,8 @@
     <body>
         <div id ="app"> 
             <h1> La page d'acceuil</h1>
-            <input type="text" v-model="message" />
-            <a href="#" @click="ajouterLanguage" v-if=" message != '' "> Ajouter </a>  <br>
-                {{message}}
+            <ajout @ajouterLanguage></ajout>
+           
 
             <div class="container">
                <div class="row">
@@ -27,7 +26,7 @@
                    </div>
                 </div>
            </div> 
-
+            
            <note v-for="todo in todos" vbind:content="Mon nouveau contenu"></note>
        </div>
 
@@ -35,7 +34,7 @@
             const vm = Vue.createApp({
                 data(){
                     return{
-                        message: "Hello world ! ",
+                         
                         user :"Ulysse",
                         languages: [ 
                             { id:'language-0 html', content: "Html"},
@@ -56,9 +55,8 @@
                     inverser(){
                         this.languages.reverse();
                     },
-                    ajouterLanguage(){
-                        this.languages.push(this.message);
-                        this.message = '';
+                    ajouterLanguage(message){
+                        this.languages.push( message); 
                     }
                 }
             })
@@ -66,7 +64,28 @@
             vm.component('note', {
                 props: ['content'],
                 template: ` <p> {{ content }} </p> `
-            }) 
+            });
+
+            vm.component('ajout', {
+                props:[],
+                emits: ['nouvellelanguage'],
+                data(){
+                    return{
+                        interne: "Nouveau language"
+                    }
+                },
+                method:{
+                    enregistrerLanguage(){
+                        this.$emit('nouvelleLanguage', this.interne);
+                        this.interne='';
+                    }
+                },
+                template: ` 
+                    <input type="text" v-model="interne"/>
+                    <a href="#" @click="enregistrerLanguage" v-if=" interne != '' ">  Ajouter </a>
+                    <br/>{{interne}}
+                    `
+            })
             vm.mount('#app') 
  
         </script>
