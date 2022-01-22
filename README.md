@@ -71,3 +71,7 @@ Mise en commun pour Vue marche sur tout branches
 Check yarn serveur
 
 V0.2- Date 16/01/2021
+vue page index / test
+
+V.03 - 22/01/2021
+Test implementation - acceuil
