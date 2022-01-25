@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Mon Application Vue.js</title>
+</head>
+<body>
+      <!-- Contenu temporairement caché pour cet exemple -->
+  <script>
+    const app = new Vue()
+  </script>
+
+    <div id="app">
+        <h1>Ma première application Vue.js !</h1>
+
+        <p>J'ai hâte de créer des applications incroyables !</p>
+    </div>
+    <script>
+    // Vue n'est pas encore chargé donc une ReferenceError devrait être retournée
+    console.log(Vue)
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script>
+        // La console devrait maintenant afficher une fonction
+        console.log(Vue)
+    </script>
+</body>
+</html>
+<!-- https://openclassrooms.com/fr/courses/6390311-creez-une-application-web-avec-vue-js/6907296-creez-votre-premiere-application-vue-js -->-->

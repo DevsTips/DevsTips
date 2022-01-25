@@ -74,4 +74,7 @@ V0.2- Date 16/01/2021
 vue page index / test
 
 V.03 - 22/01/2021
-Test implementation - acceuil
+Test implementation - Acceuil
+
+25/01
+Fusion des tests
