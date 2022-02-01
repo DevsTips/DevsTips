@@ -6,22 +6,34 @@
     <h1>Premier Projet - DevsTips A</h1>
   
     <h3>Page Acceuil</h3>
-    <div>
-      Catégories 
+    <div id="categories-Languages">
+      Catégories    
+        <p>Voici les différents languages possible</p> 
+        <ul>
+          <li>HTML/CSS  </li> 
+          <li> {{costLanguage}}</li>
+          <li> C++ </li>
+          <li> JAVA </li>
+          <li> JAVASCRIPT </li>
+          <li> JQUERY </li>
+          <li> JAVASCRIPT </li>
+          <li> PYTHON </li>
+          <li> JQUERY </li> 
+        </ul>
     </div>
-
-   Languages
+    
     <div id="app">
         <h1>Ma première application Vue.js !</h1>
-
         <p>J'ai hâte de créer des applications incroyables !</p>
     </div>
    
-       <div id="app">
+       <div id="app -Commentaire">
+         Laisser un commentaire
         <div class="container">
             <div class="row">
                 <p class="jumbotron">
-                   Login : <input type="text" v-model="user" />   Vous êtes connecté en tant que {{user}}
+                   Login : <input type="text" v-model="user" />  
+                     Vous êtes connecté en tant que {{user}}
                 </p>
                 <div class="row">
                     <div class="col-3">
@@ -33,10 +45,7 @@
 
             </div>
         </div>
-    </div>
-
-  
-
+    </div> 
     <h3>Footer</h3>
     <ul>
       <li><a src="./Contact.vue" target="_blank" rel="noopener">Contact</a></li>
@@ -45,15 +54,23 @@
 </template>
  
 <!--Script -->
+ 
 <script>
+   console.log("Debut")
     // Vue n'est pas encore chargé donc une ReferenceError devrait être retournée
    //console.log(Vue)
 export default {
-  name: 'HelloWorld',
+  name: 'Appli Devtips',
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+  
+      user: "Ulysse",
+    produits: ["HTML", "CSS","C", "C++","JAVA","JAVASCRIPT","JQUERY","PYTHON"] ,
+    costLanguage: "Test",
+   /**  */
+   
+   }
 </script>
 
 
