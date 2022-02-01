@@ -1,5 +1,4 @@
-
-<header>Header</header>
+ 
 <!-- template html -->
 
 <template>
@@ -9,18 +8,18 @@
     <h1>Premier Projet - DevsTips </h1>
   
   <nav>
-      <HomeLink />
-			<a href="/">Accueil</a>
-			<a href="/about">À propos</a>
-			<a href="/contact">Contact</a>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
 		</nav>
 
     <h3>Page Acceuil</h3>
     <div id="categories-Languages">
       Catégories    
-        <p>Voici les différents languages possible</p> 
+        <p>Voici les différents languages possibles</p> 
         <ul>
-          <li>HTML/CSS  </li> 
+          <li>HTML/CSS </li> 
           <li> {{costLanguage}}</li>
           <li> C++ </li>
           <li> JAVA </li>
@@ -57,10 +56,12 @@
         </div>
     </div> 
     <h3>Footer</h3>
-    <ul>
-       <li><a href="/about">À propos</a></li>
-      <li><a src="./Contact.vue" target="_blank" rel="noopener">Contact</a></li>
-     </ul>
+  <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
   </div>
 </template>
  
