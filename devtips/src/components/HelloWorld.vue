@@ -1,16 +1,20 @@
-<!-- template html -->
+
 <header>Header</header>
+<!-- template html -->
+
 <template>
+
   <div class="hello">
     
     <h1>Premier Projet - DevsTips </h1>
   
   <nav>
+      <HomeLink />
 			<a href="/">Accueil</a>
 			<a href="/about">À propos</a>
 			<a href="/contact">Contact</a>
 		</nav>
-    
+
     <h3>Page Acceuil</h3>
     <div id="categories-Languages">
       Catégories    
@@ -39,7 +43,7 @@
             <div class="row">
                 <p class="jumbotron">
                    Login : <input type="text" v-model="user" />  
-                     Vous êtes connecté en tant que {{user}}
+                 <!-- Vous êtes connecté en tant que {{user}}-->  
                 </p>
                 <div class="row">
                     <div class="col-3">
@@ -54,6 +58,7 @@
     </div> 
     <h3>Footer</h3>
     <ul>
+       <li><a href="/about">À propos</a></li>
       <li><a src="./Contact.vue" target="_blank" rel="noopener">Contact</a></li>
      </ul>
   </div>
@@ -62,6 +67,9 @@
 <!--Script -->
  
 <script>
+import HomeLink from '../components/HomeLink.vue'
+ 
+ 
    console.log("Debut")
     // Vue n'est pas encore chargé donc une ReferenceError devrait être retournée
    //console.log(Vue)
@@ -70,13 +78,17 @@ export default {
   props: {
     msg: String,
   },
+  components: {
+    HomeLink
+  },
       user:  "Anonyme",//Tempo "Ulysse"
     produits: ["HTML", "CSS","C", "C++","JAVA","JAVASCRIPT","JQUERY","PYTHON"] ,
     costLanguage: "Test",
     note:"1/5",
     favoris:true,
    /**  */
-   
+
+
    }
 </script>
 
@@ -95,6 +107,8 @@ li {
   margin: 0 10px;
 }
 a {
+  text-decoration: none;
   color: #42b983;
+  
 }
 </style>
