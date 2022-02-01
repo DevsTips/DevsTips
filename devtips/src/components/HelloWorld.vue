@@ -5,6 +5,12 @@
     
     <h1>Premier Projet - DevsTips </h1>
   
+  <nav>
+			<a href="/">Accueil</a>
+			<a href="/about">À propos</a>
+			<a href="/contact">Contact</a>
+		</nav>
+    
     <h3>Page Acceuil</h3>
     <div id="categories-Languages">
       Catégories    
