@@ -3,7 +3,7 @@
 <template>
   <div class="hello">
     
-    <h1>Premier Projet - DevsTips</h1>
+    <h1>Premier Projet - DevsTips A</h1>
   
     <h3>Page Acceuil</h3>
     <div>
@@ -17,13 +17,32 @@
         <p>J'ai hâte de créer des applications incroyables !</p>
     </div>
    
+       <div id="app">
+        <div class="container">
+            <div class="row">
+                <p class="jumbotron">
+                   Login : <input type="text" v-model="user" />   Vous êtes connecté en tant que {{user}}
+                </p>
+                <div class="row">
+                    <div class="col-3">
+                        <p class="jambotron">
+                            Afficher les codes
+                        </p>   
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  
+
     <h3>Footer</h3>
     <ul>
       <li><a src="./Contact.vue" target="_blank" rel="noopener">Contact</a></li>
      </ul>
   </div>
 </template>
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
  
 <!--Script -->
 <script>
@@ -36,6 +55,7 @@ export default {
   }
 }
 </script>
+
 
 <!-- Style -->
 <!-- Add "scoped" attribute to limit CSS to this component only -->
