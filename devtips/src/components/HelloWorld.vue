@@ -3,7 +3,7 @@
 <template>
   <div class="hello">
     
-    <h1>Premier Projet - DevsTips A</h1>
+    <h1>Premier Projet - DevsTips </h1>
   
     <h3>Page Acceuil</h3>
     <div id="categories-Languages">
@@ -64,15 +64,15 @@ export default {
   props: {
     msg: String,
   },
-  
-      user: "Ulysse",
+      user:  "Anonyme",//Tempo "Ulysse"
     produits: ["HTML", "CSS","C", "C++","JAVA","JAVASCRIPT","JQUERY","PYTHON"] ,
     costLanguage: "Test",
+    note:"1/5",
+    favoris:true,
    /**  */
    
    }
 </script>
-
 
 <!-- Style -->
 <!-- Add "scoped" attribute to limit CSS to this component only -->
