@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+<<<<<<< HEAD
 // import Vue from 'vue'
 import "../dist/css/bootstrap.min.css"
 
@@ -9,3 +10,7 @@ new Vue({
 }).$mount('#app')
 */
  createApp(App).mount('#app')
+=======
+
+createApp(App).mount('#app')
+>>>>>>> main

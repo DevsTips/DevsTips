@@ -18,9 +18,7 @@ Après quoi il sera plus simple d'installer vue
 A mettre dans le terminal :
 
 $ npm install vue
-
 $ npm install -g @vue/cli
- 
 * OR 
 
 yarn global add @vue/clie
@@ -81,5 +79,5 @@ Fusion des tests
 
 V.04
 01/02/2021
-Version mise au commun
+Version mise au commun apré reunion
  -> Transfert des fichier Ulysse / Vue essaie 
