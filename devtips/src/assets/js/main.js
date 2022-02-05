@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+ import { createApp } from 'vue'
 import Vue from Vue
 import App from '../../App.vue'
 import '../style/bootstrap-4.1.3-dist/css/bootstrap.min.css'
