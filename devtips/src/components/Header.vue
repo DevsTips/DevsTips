@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="#">
         <img
-          src="devtips/src/assets/logo.png"
+          src="@/assets/logo.png"
           alt=""
           width="30"
           height="24"

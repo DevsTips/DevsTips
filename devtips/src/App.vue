@@ -3,22 +3,28 @@
   <div id="app"> 
     <Header />
     <VerticalMenu />
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Footer />
   </div>
  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
 import VerticalMenu from './components/VerticalMenu.vue'
+import Card from './components/Card.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Header,
-    VerticalMenu
+    VerticalMenu,
+    Card,
+    Footer
   }
 }
 </script>
@@ -30,7 +36,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #FFFFFF;
-  background-color: #191E2A;
+  background: #191E2A;
 }
  
 </style> 
