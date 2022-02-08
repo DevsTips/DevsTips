@@ -61,6 +61,78 @@
 			<a href="/about">À propos | </a>
 			<a href="/contact">Contact | </a>
 		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
+    <nav>
+      <HomeLink />  
+			<a href="/">Accueil | </a>
+			<a href="/about">À propos | </a>
+			<a href="/contact">Contact | </a>
+		</nav>
   </div>
 </template>
  
