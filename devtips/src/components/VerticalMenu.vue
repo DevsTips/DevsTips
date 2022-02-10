@@ -56,8 +56,10 @@
 <style scoped>
 nav {
   position: fixed;
+  z-index: 1;
   box-shadow: 10px 5px 5px black;
   margin-top: 50px;
+  background-color: #191E2A;;
 }
 ul {
   padding-left: 20px;
