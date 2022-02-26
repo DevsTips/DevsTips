@@ -1,30 +1,17 @@
 <template>
- 
-  <div id="app"> 
-    <Header />
-    <VerticalMenu />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Footer />
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
- 
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import VerticalMenu from './components/VerticalMenu.vue'
-import Card from './components/Card.vue'
-import Footer from './components/Footer.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    Header,
-    VerticalMenu,
-    Card,
-    Footer
+    HelloWorld
   }
 }
 </script>
@@ -35,8 +22,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #FFFFFF;
-  background: #191E2A;
+  color: #2c3e50;
+  margin-top: 60px;
 }
- 
-</style> 
+</style>
