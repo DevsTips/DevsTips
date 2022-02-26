@@ -1,9 +1,15 @@
  <!-- template html -->
 
 <template>
+<<<<<<< HEAD
 <div>
   <h1>HELLO</h1>
 </div>
+=======
+  <div>
+    <h1>HELLO</h1>
+  </div>
+>>>>>>> Mise a jour- ajout fichiers
 </template>
 
 <!-- Style -->
