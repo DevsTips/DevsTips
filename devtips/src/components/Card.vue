@@ -43,16 +43,20 @@ div {
   background-color: #191e2a;
   text-align: left;
 }
+
 .card-margin {
   margin-left: 200px;
   margin-top: 50px;
 }
+
 .row {
   margin-right: O;
 }
+
 .col-sm-3 {
   margin-right: 100px;
 }
+
 .card {
   width: 272px;
   height: 344px;
