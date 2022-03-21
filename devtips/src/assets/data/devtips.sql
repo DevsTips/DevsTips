@@ -185,7 +185,7 @@ CREATE TABLE `Users` (
 
 INSERT INTO `Users` (`id`, `pseudo`, `addressmail`) VALUES
 (1, 'Ulysse', 'ulysseperret@orange.fr'),
-(2, 'Nikolla', 'nikola.marinkovic.ort@gmail.com '),
+(2, 'Nikola', 'nikola.marinkovic.ort@gmail.com '),
 (3, 'Baptiste', 'baptistedantas@orange.fr');
 
 --

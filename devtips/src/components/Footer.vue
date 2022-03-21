@@ -1,5 +1,5 @@
 <template>
     <div>
-        <p>Fait par Baptiste Dantas, Nikolla Marinkovic et Ulysse Perret</p>
+        <p>Fait par Baptiste Dantas, Nikola Marinkovic et Ulysse Perret</p>
     </div>
 </template>

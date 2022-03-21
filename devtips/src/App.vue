@@ -3,6 +3,7 @@
   <div id="app"> 
     <Header />
     <VerticalMenu />
+    <HomeLink />
     <Card />
     <Card />
     <Card />
