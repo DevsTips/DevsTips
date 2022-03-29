@@ -1,4 +1,4 @@
-       <div id="app-Commentaire">
+       <div id="app -Commentaire">
          Laisser un commentaire
         <div class="container">
             <div class="row">
@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-3">
                         <p class="jambotron">
-                            Afficher les commentaires des utilisateteurs
+                            Afficher les comentaires
                         </p>   
                     </div>
                 </div>

@@ -1,19 +1,11 @@
-       <div id="app -Commentaire">
-         Laisser un commentaire
+       <div id="app-Contact">
+        Voici les differents moyens de contacts
         <div class="container">
-            <div class="row">
-                <p class="jumbotron">
-                   Login : <input type="text" v-model="user" />  
-                 <!-- Vous êtes connecté en tant que {{user}}-->  
-                </p>
-                <div class="row">
-                    <div class="col-3">
-                        <p class="jambotron">
-                            Afficher les comentaires
-                        </p>   
-                    </div>
-                </div>
-
-            </div>
+            <p>
+            Baptiste Dantas : 
+            Nicolla Marinkovic :
+            Ulysse Perret : 
+            </p>
+            
         </div>
     </div>
