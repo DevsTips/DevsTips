@@ -1,9 +1,9 @@
  <!-- template html -->
 
 <template>
-<div>
-  <h1>HELLO</h1>
-</div>
+  <div>
+    <h1>HELLO</h1>
+  </div>
 </template>
 
 <!-- Style -->
@@ -23,6 +23,5 @@ li {
 a {
   text-decoration: none;
   color: #42b983;
-  
 }
 </style>
