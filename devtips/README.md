@@ -19,6 +19,7 @@ yarn build
 ```
 yarn lint
 ```
-
+#
+npm install firebase
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

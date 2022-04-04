@@ -1,6 +1,5 @@
 <template>
- 
-  <div id="app"> 
+  <div id="app">
     <Header />
     <VerticalMenu />
     <Card />
@@ -9,24 +8,23 @@
     <Card />
     <Footer />
   </div>
- 
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import VerticalMenu from './components/VerticalMenu.vue'
-import Card from './components/Card.vue'
-import Footer from './components/Footer.vue'
+import Header from "./components/Header.vue";
+import VerticalMenu from "./components/VerticalMenu.vue";
+import Card from "./components/Card.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
     VerticalMenu,
     Card,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
 
 <style>
@@ -35,8 +33,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #FFFFFF;
-  background: #191E2A;
+  color: #ffffff;
+  background: #191e2a;
 }
- 
 </style> 
