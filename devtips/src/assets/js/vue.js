@@ -1,5 +1,4 @@
-const { search } = require("core-js/fn/symbol");
-
+/**
 const vue = new Vue({
   data: () =>  {
     return {
@@ -28,6 +27,7 @@ computed: {
   methods
   }),
 }),
+**/
 
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
