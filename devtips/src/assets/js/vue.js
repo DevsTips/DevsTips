@@ -1,3 +1,19 @@
+const vue = new Vue({
+  data: ( => {
+    return {
+      astuces: [],
+      categorie: [],
+      code: [],
+      commentaire: [],
+      exemplecode: [],
+      note : [],
+      snippet: [],
+      users: [],
+
+    }
+  })
+}),
+
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
