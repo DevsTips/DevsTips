@@ -1,5 +1,7 @@
+const { search } = require("core-js/fn/symbol");
+
 const vue = new Vue({
-  data: ( => {
+  data: () =>  {
     return {
       astuces: [],
       categorie: [],
@@ -9,9 +11,22 @@ const vue = new Vue({
       note : [],
       snippet: [],
       users: [],
-
-    }
-  })
+    },
+computed: {
+  search()  {
+    return this.codetest.filter((code) => {
+      return (
+        wine.name.toLowerCase().includes(this.searchKey.toLowerCase()) &&
+        wine.country
+          .toLowerCase()
+          .includes(this.countrySelected.toLowerCase()) &&
+        wine.grapes.toLowerCase().includes(this.grapesSelected.toLowerCase())
+        );
+      });
+    },
+  },
+  methods
+  }),
 }),
 
 (function (global, factory) {
