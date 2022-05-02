@@ -3,43 +3,195 @@
 
 <head>
   <title>Vue Project</title>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
   <link rel="icon" href="./assets/img/vueLogo.png" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
   <link href="./assets/style/style.css" rel="stylesheet" />
 </head>
 
 <body>
-
-  <nav>
-    <div class="nav-container">
-      <div id="logo">
-        <img src="./assets/img/wish-logo-800.png" alt="logo" />
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #191e2a">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">
+          <img src="devtips/src/assets/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top" />
+          DevTips
+        </a>
+        <div>
+          <form class="d-flex">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1">🔎</span>
+              <input class="form-control me-2" type="search" placeholder="Rechercher un Code" aria-label="Search" />
+            </div>
+          </form>
+        </div>
       </div>
+    </nav>
+  </header>
+  <div id="VerticalMenu">
+    <ul class="nav flex-column text-left">
+      <h6>CATÉGORIES</h6>
+      <li class="nav-item">
+        <a class="nav-link">
+          <input type="checkbox" />
+          CSS
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          <input type="checkbox" />
+          HTML
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          <input type="checkbox" />
+          JS
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          <input type="checkbox" />
+          Design
+        </a>
+      </li>
+    </ul>
+    <ul class="nav flex-column text-left">
+      <h6>NIVEAUX</h6>
+      <li class="nav-item">
+        <a class="nav-link">
+          <input type="checkbox" />
+          Novice
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          <input type="checkbox" />
+          Intermédiaire
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          <input type="checkbox" />
+          Confirmé
+        </a>
+      </li>
+    </ul>
+    <button type="button" class="btn btn-light">Filtrer</button>
+  </div>
 
-      <ul id="icons">
-        <li>
-          <i class="fas fa-user"></i>
-        </li>
-        <li>
-          <i class="fas fa-heart"></i>
-          <span id="nav-notif"></span>
-        </li>
-        <li>
-          <i class="fas fa-shopping-cart"></i>
-        </li>
-      </ul>
+  <div class="card-margin">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card">
+          <img src="../src/assets/variants.png" alt="Image de l'article" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Comprendre et créer des variants sur Figma
+            </h5>
+            <p>3 minutes de lecture</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <img src="../src/assets/variants.png" alt="Image de l'article" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Comprendre et créer des variants sur Figma
+            </h5>
+            <p>3 minutes de lecture</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <img src="../src/assets/variants.png" alt="Image de l'article" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Comprendre et créer des variants sur Figma
+            </h5>
+            <p>3 minutes de lecture Test</p>
+            <!-- Inserer le pseudo du visiteur ici-->
+            <?php echo "Ceci est du texte"; ?>
+            <p>Crée par le visiteur : </p>
+
+          </div>
+        </div>
+      </div>
     </div>
-  </nav>
+  </div>
 
   <script src="./assets/js/script.js"></script>
 </body>
-<<<<<<< HEAD </html>
-  =======
 
 </html>
->>>>>>> mise a jour / point fichier 29 mars
+<style scoped>
+  h5 {
+    color: white;
+  }
+
+  h6 {
+    color: white
+  }
+
+  a {
+    color: white
+  }
+
+  p {
+    color: white
+  }
+
+  #VerticalMenu {
+    position: fixed;
+    z-index: 1;
+    box-shadow: 10px 5px 5px black;
+    margin-top: 50px;
+    background-color: #191e2a;
+  }
+
+  #VerticalMenu ul {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  #VerticalMenu h6 {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  #VerticalMenu button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-margin {
+    background-color: #191e2a;
+    text-align: left;
+
+    color: white;
+  }
+
+  .card-margin div {
+    margin-left: 200px;
+
+  }
+
+  .row {
+    margin-right: O;
+  }
+
+  .col-sm-3 {
+    margin-right: 100px;
+  }
+
+  .card {
+    width: 272px;
+    height: 344px;
+  }
+
+  .test-php {}
+</style>

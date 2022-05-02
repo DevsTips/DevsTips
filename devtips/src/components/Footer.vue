@@ -1,5 +1,7 @@
 <template>
-    <div>
-        <p>Fait avec ❤️</p>
-    </div>
+ 
+  <div>
+    <p>Fait par Baptiste Dantas, Nikola Marinkovic et Ulysse Perret</p>
+  </div>
+ 
 </template>

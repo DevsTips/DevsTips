@@ -1,14 +1,44 @@
-/*!
- * Vue.js v2.5.16
- * (c) 2014-2018 Evan You
- * Released under the MIT License.
- */
+/**
+const vue = new Vue({
+  data: () =>  {
+    return {
+      astuces: [],
+      categorie: [],
+      code: [],
+      commentaire: [],
+      exemplecode: [],
+      note : [],
+      snippet: [],
+      users: [],
+    },
+computed: {
+  search()  {
+    return this.codetest.filter((code) => {
+      return (
+        wine.name.toLowerCase().includes(this.searchKey.toLowerCase()) &&
+        wine.country
+          .toLowerCase()
+          .includes(this.countrySelected.toLowerCase()) &&
+        wine.grapes.toLowerCase().includes(this.grapesSelected.toLowerCase())
+        );
+      });
+    },
+  },
+  methods
+  }),
+}),
+**/
+
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
 	(global.Vue = factory());
 }(this, (function () { 'use strict';
-
+/*!
+ * Vue.js v2.5.16
+ * (c) 2014-2018 Evan You
+ * Released under the MIT License.
+ */
 var emptyObject = Object.freeze({});
 
 // these helpers produces better vm code in JS engines due to their
