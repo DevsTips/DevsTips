@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav id="VerticalMenu">
     <ul class="nav flex-column text-left">
       <h6>CATÉGORIES</h6>
       <li class="nav-item">
@@ -59,7 +59,7 @@ nav {
   z-index: 1;
   box-shadow: 10px 5px 5px black;
   margin-top: 50px;
-  background-color: #191E2A;;
+  background-color: #191e2a;
 }
 ul {
   padding-left: 20px;
@@ -70,7 +70,7 @@ h6 {
   padding-top: 20px;
 }
 button {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 </style>
