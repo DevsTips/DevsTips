@@ -1,7 +1,7 @@
 <?php
-
-/**
- * Retourne une connexion à la DB
+//192.168.1.11:8080/libraries/controllers/getData.php
+//http://localhost:8080/devtips/src/libraries/controllers/getData.php/**
+/* Retourne une connexion à la DB
  * 
  * @return PDO
  */
