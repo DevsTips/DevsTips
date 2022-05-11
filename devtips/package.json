@@ -9,13 +9,15 @@
     },
     "dependencies": {
         "babel": "npm:Babel@^0.0.1",
-        "Babel": "^0.0.1",
-        "core-js": "^3.8.3",
+        "babel-cli": "^6.26.0",
+        "convert-source-map": "^1.8.0",
+        "core-js": "^3.22.5",
+        "source-map-url": "^0.4.1",
         "vue": "^2.6.14"
     },
     "devDependencies": {
         "@babel/cli": "^7.17.6",
-        "@babel/core": "^7.17.8",
+        "@babel/core": "^7.17.10",
         "@babel/eslint-parser": "^7.17.0",
         "@babel/preset-env": "^7.16.11",
         "@babel/preset-react": "^7.16.7",
@@ -23,9 +25,9 @@
         "@vue/cli-plugin-eslint": "~5.0.0",
         "@vue/cli-service": "~5.0.0",
         "babel-eslint": "^10.1.0",
-        "eslint": "^7.32.0",
+        "eslint": "^8.15.0",
         "eslint-loader": "^4.0.2",
-        "eslint-plugin-vue": "^8.6.0",
+        "eslint-plugin-vue": "^8.7.1",
         "vue-template-compiler": "^2.6.14"
     },
     "eslintConfig": {

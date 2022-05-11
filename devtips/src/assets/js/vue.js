@@ -1,3 +1,7 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-empty */
+// eslint-disable-next-line no-undef
+// eslint-disable-next-line no-unused-vars
 const vue = new Vue({
   data: () => {
     return { 
@@ -7,6 +11,7 @@ const vue = new Vue({
   },
   computed: {
     search() {
+      // eslint-disable-next-line no-unused-vars
       return this.codes.filter((code) => {
          
       });

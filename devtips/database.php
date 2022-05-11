@@ -9,10 +9,13 @@
 function getPDO(): PDO
 {
 
-  $servername = 'localhost';
+  $servername = 'localhost';  
   $dbname = 'ulysseperret_devstip';
+  $servername = 'localhost'; 
   $user = 'root';
+  // cas pour alwaysdata // $user =  175707_devstips
   $pass = 'root';
+    // cas pour alwaysdata //  $pass =   Devstips1234
 
   $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $user, $pass, [
     PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION,
