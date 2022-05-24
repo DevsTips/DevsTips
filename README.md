@@ -3,9 +3,20 @@ DevsTips est un site de tips and tricks pour les developpeurs et codeurs.
 Ils permettent aux utilisateurs de consulters les codes et des exemples utilise pour coders leurs projets. 
 
 # Architecture du code git
-Sql : Dossier pour sql 
-src: pour le code
-node_modules : pour node install
+Dans le Dossier devtips il a un dossier devtips ou nous mettrons les différents elements
+  Sql : Dossier pour sql et UML
+  src: pour le code pur vue/php
+    assets : les elements tels que les images, codes js, styles, donnes suplementaire
+      data: : sql heberger 
+      img : le logo
+      js : le code javascript
+      SQL : les information sql
+      style : le style avec bootstrap
+      components : les différentes pages Vue
+      composant-language : les composant htmls
+      librairies : les libraries issus de Vue
+  public: le code publique
+  node_modules : pour node install
 
 Dans src il a :
 assets : les élement/ images 
